@@ -1,2 +1,2 @@
 # my_personal_page
-## Projeto do fgma
+## Projeto fgma
