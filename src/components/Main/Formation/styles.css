@@ -1,0 +1,38 @@
+.content_formation{
+    display: flex;
+    flex-direction: column;
+
+    gap: 2.0rem;
+}
+.content_formation img{
+    width: 22.7rem;
+    height: 17.0rem;
+}
+.formation_description{
+    display: flex;
+
+    gap: 8.5rem;
+}
+.contente_discription{
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.9rem;
+}
+.contente_discription strong{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.9rem;
+}
+.contente_discription p{
+    width: 524px;
+    height: 69px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.3rem;
+}

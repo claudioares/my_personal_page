@@ -1,7 +1,7 @@
 .container_page{
     display: flex;
     flex-direction: column;
-  
+    height: 277.3rem;
     min-height: 100vh;
     
     padding-top: 3.1rem;
