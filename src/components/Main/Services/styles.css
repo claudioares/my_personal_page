@@ -1,12 +1,4 @@
-.content_services{
-    display: flex;
-    flex-direction: column;
-
-    gap: 8rem;
-    align-items: center;
-}
-.content_discription{
-    display: flex;
-
-    gap: 2.8rem;
+#card{
+    background: radial-gradient(84.9% 84.9% at 49.77% -5.37%, rgba(180, 138, 61, 0.49) 0%, rgba(63, 47, 53, 0.63) 45.31%, #231A33 100%);
+    border-radius: 1rem;
 }

@@ -1,4 +1,5 @@
 import MyName from "./MyName";
+import Portifolio from "./Portifolio";
 import Services from "./Services";
 
 function Main () {
@@ -6,6 +7,7 @@ function Main () {
       <div>
         <MyName />
         <Services />
+        <Portifolio />
       </div>
     )
 }

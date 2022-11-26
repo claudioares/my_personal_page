@@ -1,0 +1,15 @@
+.content_skills_icons{
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.5rem;
+}
+#ui_ux{
+    background-color: #4B3A2A;
+}
+#back{
+    background-color: #57244A;
+}
+#front{
+    background-color: #3A4D57;
+}

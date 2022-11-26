@@ -1,0 +1,7 @@
+.content_services{
+    display: flex;
+    flex-direction: column;
+
+    gap: 8rem;
+    align-items: center;
+}
