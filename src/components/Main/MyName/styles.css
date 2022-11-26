@@ -1,0 +1,56 @@
+.container_body_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10.4rem;
+    color: white;
+}
+.section_body_page{
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.5rem;
+  
+    height: 100%;
+}
+.section_body_page h2{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+}
+.user_my_name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+.user_name{
+    display: flex;
+    gap: 0.6rem;
+    width: 22.0rem;
+}
+.user_name h2:last-child{
+    color: #C4AD8C;
+}
+.user_presentación{
+    width: 61.6rem;
+    height: 9.8rem;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.8rem;
+}
+.content_imagens_section{
+    display: flex;
+
+    gap: 2.0rem;
+}
+.content_ima_01 img {
+    width: 50.0rem;
+    height: 25.0rem;
+}

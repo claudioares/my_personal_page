@@ -1,0 +1,10 @@
+.container_page{
+    min-width: 100vw ;
+    min-height: 100vh;
+    
+    padding-top: 3.1rem;
+    background-color: #000000;
+}
+.body_page{
+    margin: 18.2rem 11.0rem 18.2rem 11.0rem;
+}
