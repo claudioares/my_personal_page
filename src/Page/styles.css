@@ -1,14 +1,35 @@
 .container_page{
     display: flex;
     flex-direction: column;
-    height: 277.3rem;
+    min-height: 100vh;
     min-height: 100vh;
     
     padding-top: 3.1rem;
     background-color: #000000;
 }
 .body_page{
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.span_page_init{
+    position: absolute;
+
+    bottom: -15rem;
+    right: 10.7rem;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+    text-decoration-line: underline;
+
+    color: #C4AD8C;
+
+    cursor: pointer;
+}
+.span_page_init:hover{
+    color: #ffffff;
 }
