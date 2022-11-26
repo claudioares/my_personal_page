@@ -1,4 +1,7 @@
 .container_page{
+    display: flex;
+    flex-direction: column;
+  
     min-width: 100vw ;
     min-height: 100vh;
     
@@ -6,5 +9,7 @@
     background-color: #000000;
 }
 .body_page{
-    margin: 18.2rem 11.0rem 18.2rem 11.0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

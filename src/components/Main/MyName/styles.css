@@ -1,11 +1,3 @@
-.container_body_page{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    gap: 10.4rem;
-    color: white;
-}
 .section_body_page{
     display: flex;
     flex-direction: column;

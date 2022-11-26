@@ -1,8 +1,12 @@
 import MyName from "./MyName";
+import Services from "./Services";
 
 function Main () {
     return(
-      <MyName />
+      <div>
+        <MyName />
+        <Services />
+      </div>
     )
 }
 
