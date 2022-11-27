@@ -28,16 +28,14 @@
     color: #C4AD8C;
 }
 .user_presentación{
-    min-width: 61.6rem;
-    min-height: 9.8rem;
+    width: 61.6rem;
+    height: 9.8rem;
 
     font-family: 'Jost';
     font-style: normal;
     font-weight: 400;
     font-size: 2rem;
     line-height: 1.8rem;
-
-    margin-bottom: 1rem;
 }
 .content_imagens_section{
     display: flex;
