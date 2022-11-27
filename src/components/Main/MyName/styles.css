@@ -10,8 +10,8 @@
     font-family: 'Plus Jakarta Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
-    line-height: 38px;
+    font-size: 3rem;
+    line-height: 3.8rem;
 }
 .user_my_name{
     font-family: 'Inter';
@@ -28,14 +28,16 @@
     color: #C4AD8C;
 }
 .user_presentación{
-    width: 61.6rem;
-    height: 9.8rem;
+    min-width: 61.6rem;
+    min-height: 9.8rem;
 
     font-family: 'Jost';
     font-style: normal;
     font-weight: 400;
     font-size: 2rem;
     line-height: 1.8rem;
+
+    margin-bottom: 1rem;
 }
 .content_imagens_section{
     display: flex;
