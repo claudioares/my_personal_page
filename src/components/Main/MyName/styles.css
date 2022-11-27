@@ -28,8 +28,9 @@
     color: #C4AD8C;
 }
 .user_presentación{
-    width: 61.6rem;
-    height: 9.8rem;
+    
+    min-width: 61.6rem;
+    max-width: 9.8rem;
 
     font-family: 'Jost';
     font-style: normal;

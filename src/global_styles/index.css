@@ -48,7 +48,8 @@ a{
     display: none;
   }
   .user_presentación{
-    max-width: 500px;
+    text-align: center;
+    min-width: 500px;
   }
  .section_body_page{
   align-items: center;
