@@ -22,9 +22,9 @@ function MyName () {
                     fazer pro resto da vida
                 </p>
                 <div className='content_imagens_section'>
-                    <img src={icon_insta} alt='Logo da rede social instagram' />
-                    <img src={icon_git} alt='Logo da rede social github' />
-                    <img src={icon_linkd} alt='Logo da rede social linkedin' />
+                    <a href='https://www.instagram.com/ayresdinhu.dev/' target="_blank"><img src={icon_insta} alt='Logo da rede social instagram' /></a>
+                    <a href='https://github.com/claudioares' target="_blank"><img src={icon_git} alt='Logo da rede social github' /></a>
+                    <a href='https://www.linkedin.com/in/cl%C3%A1udio-soares-4b9b14216/' target="_blank"><img src={icon_linkd} alt='Logo da rede social linkedin' /></a>
                 </div>  
             </section>
             <div className='content_ima_01'>

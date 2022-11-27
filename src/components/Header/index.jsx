@@ -10,10 +10,9 @@ function Header () {
                         <AnchorLink href='#services' offset='100' className='link'>Serviços</AnchorLink>
                         <AnchorLink href='#portifolio' offset='100' className='link'>Portifólio</AnchorLink>
                         <AnchorLink href='#formation' offset='100' className='link'>Formação</AnchorLink>
-                        <AnchorLink href='#contacts' offset='100' className='link'>Contatos</AnchorLink>
                     </ul>
                 </nav>
-                <button>DOWNLOAD CV</button>
+                <a href='https://drive.google.com/u/1/uc?id=1KzJFKAuakZJ6utCptw9uitY6LdDp7PNx&export=download'><button>DOWNLOAD CV</button></a>
             </div>
         </header>
     )
