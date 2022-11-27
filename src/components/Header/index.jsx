@@ -4,20 +4,22 @@ import { useState, useEffect} from "react";
 
 function Header () {
     const [container, setContainer] = useState ('container_header opacity0');
+    const [transform, setTransform] = useState ('');
 
    useEffect(()=>{
     setContainer('container_header opacity1')
+    setTransform('transform')
    },[])
 
 
     return(
-        <header className={container} id='header' >
+        <header className={container} >
             <div className='conponent_header'>
                 <nav>
                     <ul className='content_ul'>
-                        <AnchorLink href='#services' offset='100' className='link'>Serviços</AnchorLink>
-                        <AnchorLink href='#portifolio' offset='100' className='link'>Portifólio</AnchorLink>
-                        <AnchorLink href='#formation' offset='100' className='link'>Formação</AnchorLink>
+                        <AnchorLink href='#services' offset='140' className='link' id={transform}>Serviços</AnchorLink>
+                        <AnchorLink href='#portifolio' offset='140' className='link' id={transform}>Portifólio</AnchorLink>
+                        <AnchorLink href='#formation' offset='140' className='link' id={transform}>Formação</AnchorLink>
                     </ul>
                 </nav>
                 <a href='https://drive.google.com/u/1/uc?id=1KzJFKAuakZJ6utCptw9uitY6LdDp7PNx&export=download'><button>DOWNLOAD CV</button></a>

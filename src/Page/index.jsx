@@ -8,11 +8,12 @@ function Page() {
 
   return (
     <div className="container_page">
+      <div  id='header'/>
       <Header />
 
       <div className='body_page'>
           <Main />
-          <AnchorLink href='#header' offset='100' className='span_page_init'>Inicio &#62;&#62;</AnchorLink>
+          <AnchorLink href='#header' className='span_page_init'>Inicio &#62;&#62;</AnchorLink>
       </div>
 
       <Footer />
