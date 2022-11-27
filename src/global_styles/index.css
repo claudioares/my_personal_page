@@ -29,7 +29,11 @@ a{
   text-decoration: none;
   cursor: pointer;
 }
-
+@media (max-width: 1024px) {
+  .user_presentación{
+    margin-bottom: 2.5rem;
+  }
+}
 @media (max-width: 768px) {
  
   .container_header{
