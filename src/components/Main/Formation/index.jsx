@@ -10,7 +10,8 @@ function Formation () {
                 </h1>
                 <div className='content_formation'>
                     <img 
-                        src={image_01} 
+                        src={image_01}
+                        loading="lazy"
                         alt="imagem de dois prototipo humanos 
                         estudando em um notbook" 
                     />

@@ -1,9 +1,17 @@
 import './styles.css';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import { useState, useEffect} from "react";
 
 function Header () {
+    const [container, setContainer] = useState ('container_header opacity0');
+
+   useEffect(()=>{
+    setContainer('container_header opacity1')
+   },[])
+
+
     return(
-        <header className='container_header' id='header'>
+        <header className={container} id='header' >
             <div className='conponent_header'>
                 <nav>
                     <ul className='content_ul'>

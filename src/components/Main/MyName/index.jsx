@@ -28,7 +28,10 @@ function MyName () {
                 </div>  
             </section>
             <div className='content_ima_01'>
-                <img src={image_01} alt='Imagem de livros, computador e uma espaço nava' />
+                <img 
+                    src={image_01} 
+                    alt='Imagem de livros, computador e uma espaço nava'
+                />
             </div>
         </div>
     )
