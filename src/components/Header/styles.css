@@ -15,14 +15,14 @@
 }
 .content_ul{
     display: flex;
-    color: #c4ad8c;
     
     gap: 3.5rem;
 }
-.content_ul li{
+.link{
+    color: #c4ad8c;
     cursor: pointer;
 }
-.content_ul li:hover{
+.link:hover{
     color: white;
 }
 .conponent_header button{
