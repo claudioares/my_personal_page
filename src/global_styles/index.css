@@ -29,13 +29,19 @@ a{
   text-decoration: none;
   cursor: pointer;
 }
+@media (max-width: 1058px){
+  .conponent_header{
+    align-items: center;
+    gap: 10%;
+  }
+}
 @media (max-width: 1024px) {
   .user_presentación{
     margin-bottom: 2.5rem;
   }
 }
 @media (max-width: 768px) {
- 
+
   .container_header{
     position:static;
 
@@ -72,9 +78,24 @@ a{
   display: none;
  }
 }
-@media (max-width: 1058px){
-  .conponent_header{
-    align-items: center;
-    gap: 10%;
+@media (max-width: 425px) {
+  .container_page{
+    transform: scale3d(1,1,1);
+  }
+  .container_header{
+    transform: scale3d(2,2,1);
+  }
+  .section_body_page{
+    transform: scale3d(2,2,2);
+  }
+  .content_services{
+    transform: scale3d(2,2,2);
+    margin: 40% 0;
+  }
+  .presents_sections{
+    transform: scale3d(1.2,1.2,1);
+  }
+  .imagen_portifolio{
+    display: none;
   }
 }

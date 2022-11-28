@@ -10,7 +10,7 @@ function Portifolio () {
                 </h1>
                 <div className='content_skills_icons'>
                     <strong>Minhas skills</strong>
-                    <img src={skills_icons} alt='icones de skills do usuario' />
+                    <img src={skills_icons} alt='icones de skills do usuario' className='imagen_portifolio' />
                 </div>
                 <div className='content_discription'>
                     <div className='card' id='ui_ux'>
