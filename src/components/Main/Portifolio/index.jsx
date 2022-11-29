@@ -1,5 +1,5 @@
 import './styles.css';
-import skills_icons from '../../../assets/imagens/portfolio/skills_icons.svg';
+import imgSkills from '../../../../ultils/skilss'
 
 function Portifolio () {
     return(
@@ -10,7 +10,11 @@ function Portifolio () {
                 </h1>
                 <div className='content_skills_icons'>
                     <strong>Minhas skills</strong>
-                    <img src={skills_icons} alt='icones de skills do usuario' className='imagen_portifolio' />
+                    <div className='div_skills_icons'>
+                        {imgSkills.map(obj => (
+                            <img src={obj.icon} alt={obj.skill} id='img_skill' key={obj.id} />
+                        ))}
+                    </div>
                 </div>
                 <div className='content_discription'>
                     <div className='card' id='ui_ux'>
