@@ -1,7 +1,39 @@
 import './styles.css';
-import imgSkills from '../../../../ultils/skilss'
+import { 
+    imgSkills,
+    imagensProjects
+} from '../../../../ultils/skilss';
+import { useState } from 'react';
+
 
 function Portifolio () {
+
+    const [img, setImg] = useState(0)
+    const [img1, setImg1] = useState(0)
+    const [img2, setImg2] = useState(0)
+
+    if( img === 11){
+        setImg(0);
+    }
+    if( img1 === 11){
+        setImg1(0);
+    }
+    if( img2 === 11){
+        setImg2(0);
+    }
+ 
+    let imgIndex1 = img;
+    let imgIndex2 = img1;
+    let imgIndex3 = img2;
+    
+    function setCurrentImg () {
+        setImg(img + 1)
+    }
+
+    console.log(img)
+
+    
+   
     return(
         <section className='container'>
             <div className='content_services'>
@@ -17,15 +49,24 @@ function Portifolio () {
                     </div>
                 </div>
                 <div className='content_discription'>
-                    <div className='card' id='ui_ux'>
-                        
-                    </div>
-                    <div className='card' id='back'>
-                        
-                    </div>
-                    <div className='card' id='front'>
-                        
-                    </div>
+                    <img 
+                        src={imagensProjects[imgIndex1]} 
+                        alt="imagem de projeto" 
+                        className='img_portfolio'
+                        onClick={() => setCurrentImg()}
+                    />
+                    <img 
+                        src={imagensProjects[imgIndex2]} 
+                        alt="imagem de projeto" 
+                        className='img_portfolio'
+                        onClick={()=>setImg1(img1 + 1)}
+                        />
+                    <img 
+                        src={imagensProjects[imgIndex3]} 
+                        alt="imagem de projeto" 
+                        className='img_portfolio'
+                        onClick={()=>setImg2(img2 + 1)}
+                    />
                 </div>
             </div>
         </section>

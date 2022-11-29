@@ -8,6 +8,7 @@
     padding: 0 1.2rem;
     width: 38.8rem;
     height: 26.9rem;
+    border-radius: 1rem;
 
     cursor:not-allowed;
 }

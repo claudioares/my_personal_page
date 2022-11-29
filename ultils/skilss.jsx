@@ -8,10 +8,20 @@ import icon_react from '../src/assets/imagens/portfolio/icon_react.svg';
 import icon_njs from '../src/assets/imagens/portfolio/icon_njs.svg';
 import icon_c from '../src/assets/imagens/portfolio/icon_c.svg';
 import icon_py from '../src/assets/imagens/portfolio/icon_py.svg';
+// imagens de projetos
+import img1 from '../src/assets/imagens/portfolio/bgs/bg01.svg';
+import img2 from '../src/assets/imagens/portfolio/bgs/bg02.svg';
+import img3 from '../src/assets/imagens/portfolio/bgs/bg03.svg';
+import img4 from '../src/assets/imagens/portfolio/bgs/bg04.svg';
+import img5 from '../src/assets/imagens/portfolio/bgs/bg05.svg';
+import img6 from '../src/assets/imagens/portfolio/bgs/bg06.svg';
+import img7 from '../src/assets/imagens/portfolio/bgs/bg07.svg';
+import img8 from '../src/assets/imagens/portfolio/bgs/bg08.svg';
+import img9 from '../src/assets/imagens/portfolio/bgs/bg09.svg';
+import img10 from '../src/assets/imagens/portfolio/bgs/bg10.svg';
+import img11 from '../src/assets/imagens/portfolio/bgs/bg11.svg';
 
-
-
-const imgSkills = [
+export const imgSkills = [
     {
         id: '01',
         skill : "icon da tecnologia html5",
@@ -64,4 +74,9 @@ const imgSkills = [
     }
 ]
 
-export default imgSkills;
+export const imagensProjects = [
+    img1, img2, img3,
+    img4, img5, img6,
+    img7, img8, img9,
+    img10, img11
+]

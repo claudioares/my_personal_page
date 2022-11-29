@@ -16,9 +16,19 @@
     transition-delay: 1ms;
     transform: scale3d(1.7, 1.7, 1.7);
 }
-#ui_ux{
-    background-color: #4B3A2A;
+.img_portfolio{
+    width: 355.01px;
+    height: 246.03px;
+
+    border: 0.2rem solid white;
+
+    cursor: pointer;
 }
+.content_discription{
+    display: flex;
+    justify-content: center;
+}
+
 #back{
     background-color: #57244A;
 }
