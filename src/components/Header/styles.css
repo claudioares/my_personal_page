@@ -9,6 +9,8 @@
     right: 0;
     left: 0;
 
+    background-color: #303541;
+
     z-index: 1;
 }
 .conponent_header{
