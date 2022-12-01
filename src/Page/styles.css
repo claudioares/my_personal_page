@@ -1,10 +1,11 @@
 .container_page{
     display: flex;
     flex-direction: column;
+    align-items: center;
 
-    min-height: 100%;
-    
-    padding-top: 3.1rem;
+    min-width: 100%;
+    height: 100%;
+
     background-color: #000000;
 }
 
@@ -14,12 +15,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+
+    width: 122.0rem;
+    height: 100%
 }
 .span_page_init{
     position: absolute;
 
-    bottom: -15rem;
-    right: 10.7rem;
+    bottom: 5rem;
+    right: 0;
 
     font-family: 'Jost';
     font-style: normal;

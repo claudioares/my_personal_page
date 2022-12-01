@@ -1,7 +1,12 @@
 .content_skills_icons{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
 
+
+    width: 100%;
+    max-width: 355px;;
     gap: 0.5rem;
 }
 .div_skills_icons{
@@ -16,22 +21,24 @@
     transition-delay: 1ms;
     transform: scale3d(1.7, 1.7, 1.7);
 }
-.img_portfolio{
-    width: 355.01px;
-    height: 246.03px;
+.cell{
+    width: 35.5rem;
+    height: 24.6rem;
 
-    border: 0.2rem solid white;
+    overflow: hidden;
 
-    cursor: pointer;
+    border: 0.1rem solid white;
 }
-.content_discription{
+.inner{
+    display: flex;
+}
+.item{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-
-#back{
-    background-color: #57244A;
-}
-#front{
-    background-color: #3A4D57;
+.item img{
+    width: 35.5rem;
+    height: 24.6rem;
+    object-fit: cover;
 }

@@ -3,8 +3,9 @@
     justify-content: center;
     align-items: center;
 
-    width: 120.2rem;
-    margin-top: 18.2rem;
+    min-height: auto;
+    
+    margin: 18.2rem 0;
 
     color: white;
 }

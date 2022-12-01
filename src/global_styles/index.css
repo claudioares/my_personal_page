@@ -16,8 +16,8 @@ body {
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
       sans-serif;
 
-  min-width:136.6rem;
-  min-height: 76.8rem;
+  min-width:100vw;
+  min-height: 100vh;
 
   font-size: 1.6rem;
   margin: 0;
@@ -29,18 +29,8 @@ a{
   text-decoration: none;
   cursor: pointer;
 }
-@media (max-width: 1058px){
-  .conponent_header{
-    align-items: center;
-    gap: 10%;
-  }
-}
-@media (max-width: 1024px) {
-  .user_presentación{
-    margin-bottom: 2.5rem;
-  }
-}
-@media (max-width: 768px) {
+
+@media (max-width: 1205px) {
   .container_page{
     width: 100%;
   }
@@ -48,7 +38,7 @@ a{
     position:static;
 
     padding: 0;
-    max-width: 768px;
+    width: 100%;
 
     justify-content: center;
   }
@@ -70,9 +60,6 @@ a{
   flex-direction: column;
   }
  .imagen_portifolio{
-  display: none;
-  }
- .span_page_init{
   display: none;
   }
  .content_footer{
