@@ -1,5 +1,8 @@
 import './styles.css';
-import social_redes from '../../assets/imagens/footer/social_redes.svg';
+import insta from '../../assets/imagens/footer/insta_footer.svg';
+import linkd from '../../assets/imagens/footer/linkd_footer.svg';
+import github from '../../assets/imagens/footer/github_footer.svg';
+
 
 function Footer () {
     return(
@@ -24,7 +27,11 @@ function Footer () {
                 </div>
                 <div className='rigth'>
                     <span>Social:</span>
-                    <img src={social_redes} alt="icones de redes sociais" />
+                    <div className='social_span'>
+                        <a href='https://www.instagram.com/ayresdinhu.dev/' target="_blank"><img src={insta} alt="icones de redes sociais" /></a>
+                        <a href='https://www.linkedin.com/in/cl%C3%A1udio-soares-4b9b14216/' target="_blank"><img src={linkd} alt="icones de redes sociais" /></a>
+                        <a href='https://github.com/claudioares' target="_blank"><img src={github} alt="icones de redes sociais" /></a>
+                    </div>
                 </div>
 
             </div>
