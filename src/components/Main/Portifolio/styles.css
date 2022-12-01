@@ -21,24 +21,7 @@
     transition-delay: 1ms;
     transform: scale3d(1.7, 1.7, 1.7);
 }
-.cell{
-    width: 35.5rem;
-    height: 24.6rem;
 
-    overflow: hidden;
-
-    border: 0.1rem solid white;
-}
-.inner{
-    display: flex;
-}
-.item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.item img{
-    width: 35.5rem;
-    height: 24.6rem;
-    object-fit: cover;
+#portifolio{
+    margin-top: 50.0rem;
 }

@@ -18,7 +18,7 @@ function Header () {
                 <nav>
                     <ul className='content_ul'>
                         <AnchorLink href='#services' offset='140' className='link' id={transform}>Serviços</AnchorLink>
-                        <AnchorLink href='#portifolio' offset='140' className='link' id={transform}>Portifólio</AnchorLink>
+                        <AnchorLink href='#portifolio' offset='450' className='link' id={transform}>Portifólio</AnchorLink>
                         <AnchorLink href='#formation' offset='140' className='link' id={transform}>Formação</AnchorLink>
                     </ul>
                 </nav>

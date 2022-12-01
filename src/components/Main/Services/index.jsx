@@ -5,9 +5,9 @@ import front_icon from '../../../assets/imagens/services/front_icon.svg'
 
 function Services () {
     return(
-        <section className='container'>
-            <div className='content_services'>
-                <h1 id='services' className='presents_sections'>
+        <section className='container_global'>
+            <div className='content_services_global'>
+                <h1 id='services' className='presents_sections_global'>
                     SERVIÇOS
                 </h1>
                 <div className='content_discription'>

@@ -3,9 +3,9 @@ import image_01 from '../../../assets/imagens/formation/image_01.svg';
 
 function Formation () {
     return(
-        <div className='container'>
-             <div className='content_services'>
-                <h1 className='presents_sections' id='formation'>
+        <div className='container_global' id='formation'>
+             <div className='content_services_global'>
+                <h1 className='presents_sections_global'>
                     FORMAÇÃO
                 </h1>
                 <div className='content_formation'>

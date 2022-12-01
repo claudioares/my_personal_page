@@ -49,20 +49,23 @@ a{
     text-align: center;
     min-width: 500px;
   }
- .section_body_page{
+  .section_body_page{
   align-items: center;
   width: 100%;
   }
- .content_discription{
+  .content_discription{
   flex-direction: column;
   }
- .formation_description{
+  .formation_description{
   flex-direction: column;
   }
- .imagen_portifolio{
+  .imagen_portifolio{
   display: none;
   }
- .content_footer{
+  .span_page_init{
+    display: none;
+  }
+  .content_footer{
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -70,7 +73,7 @@ a{
   border: none;
   max-width: 768px;
   }
- .rigth{
+  .rigth{
   display: none;
   }
 }
