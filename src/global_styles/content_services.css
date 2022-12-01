@@ -1,7 +1,7 @@
-.content_services{
+.content_services_global{
+    position: relative;
     display: flex;
     flex-direction: column;
 
-    gap: 8rem;
     align-items: center;
 }

@@ -6,7 +6,7 @@ import image_01 from '../../../assets/imagens/my_name/image_01.svg';
 
 function MyName () {
     return(
-        <div className='container'>
+        <div className='container_global'>
             <section className='section_body_page'>
                 <p className='user_my_name'>MEU NOME É:</p>
                 <div className='user_name'>
