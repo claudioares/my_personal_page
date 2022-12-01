@@ -2,6 +2,7 @@
 @import url('./presents_sections.css');
 @import url('./card.css');
 @import url('./content_services.css');
+@import url('./mobile.css');
 * {
   margin: 0;
   padding: 0;
