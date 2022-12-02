@@ -17,7 +17,7 @@ body {
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
       sans-serif;
 
-  min-width:100vw;
+  
   min-height: 100vh;
 
   font-size: 1.6rem;
@@ -78,3 +78,4 @@ a{
   display: none;
   }
 }
+

@@ -7,7 +7,7 @@ import image_01 from '../../../assets/imagens/my_name/image_01.svg';
 function MyName () {
     return(
         <div className='container_global'>
-            <section className='section_body_page'>
+            <section className='section_description_user'>
                 <p className='user_my_name'>MEU NOME É:</p>
                 <div className='user_name'>
                     <h2>Cláudio</h2>
@@ -25,7 +25,8 @@ function MyName () {
                     <a href='https://www.instagram.com/ayresdinhu.dev/' target="_blank"><img src={icon_insta} alt='Logo da rede social instagram' /></a>
                     <a href='https://github.com/claudioares' target="_blank"><img src={icon_git} alt='Logo da rede social github' /></a>
                     <a href='https://www.linkedin.com/in/cl%C3%A1udio-soares-4b9b14216/' target="_blank"><img src={icon_linkd} alt='Logo da rede social linkedin' /></a>
-                </div>  
+                    {/* <a className='curriculo_span'><span>CURRÍCULO</span></a> */}
+                </div> 
             </section>
             <div className='content_ima_01'>
                 <img 

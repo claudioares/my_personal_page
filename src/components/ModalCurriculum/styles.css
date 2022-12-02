@@ -1,0 +1,11 @@
+.container_modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+
+
+    color: white;
+    background-color: rgba(92, 70, 70, 0.315);
+}
