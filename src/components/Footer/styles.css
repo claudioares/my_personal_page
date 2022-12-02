@@ -83,3 +83,6 @@
 
     cursor: pointer;
 }
+.social_span img:hover{
+    opacity: 0.8;
+}

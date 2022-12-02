@@ -28,6 +28,8 @@ function Page() {
   
   return (
     <>
+      <div className='curriculum_modal'>
+      </div>
       { containerWeb &&
         <div className="container_page" id='header'>
         <Header />
@@ -44,7 +46,7 @@ function Page() {
         <div className='container_mobile'>
           <PageMobile />
         </div>
-      }
+      }    
     </>
   )
 }

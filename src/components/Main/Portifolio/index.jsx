@@ -15,7 +15,7 @@ function Portifolio () {
     return(
         <section className='container_global' id='portifolio'>
             <div className='content_services_global'>
-                <h1 className='presents_sections_global'>
+                <h1 className='presents_sections_global portifolio'>
                     PORTIFÓLIO
                 </h1>
                 <div className='content_skills_icons'>
