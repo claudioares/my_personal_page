@@ -20,9 +20,9 @@ function MyNameMobile () {
                 fazer pro resto da vida
             </p>
             <div className='inf_social'>
-                <img src={insta} alt='Icone de rede social' />
-                <img src={gith} alt='Icone de rede social' />
-                <img src={linked} alt='Icone de rede social' />
+                <a href='https://www.instagram.com/ayresdinhu.dev/' target="_blank"><img src={insta} alt='Icone de rede social' /></a>
+                <a href='https://github.com/claudioares' target="_blank"><img src={gith} alt='Icone de rede social' /></a>
+                <a href='https://www.linkedin.com/in/cl%C3%A1udio-soares-4b9b14216/' target="_blank"><img src={linked} alt='Icone de rede social' /></a>
             </div>
         </div>
     )
