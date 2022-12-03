@@ -1,5 +1,6 @@
-import './styles.css';
 import HeaderMobile from './HeaderMobile';
+import MyNameMobile from './MyNameMobile';
+import './styles.css';
 
 
 function PageMobile () {
@@ -7,7 +8,7 @@ function PageMobile () {
         <div className='container_mobile_body'>
             <HeaderMobile />
             <div className='container_body_mobile'>
-                <h1>Versão mobile em desenvolvimento</h1>
+               <MyNameMobile />
             </div>
         </div>
     )
