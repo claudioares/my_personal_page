@@ -1,11 +1,9 @@
 .container_my_name_mobile{
     display: flex;
     flex-direction: column;
-    
-    margin: 10.0rem 3.3rem 0 3.3rem;
-    width: 296px;
-    height: 135px;
 
+    margin-top: 10.0rem;
+  
 }
 .p1{
     font-family: 'Inter';
@@ -24,8 +22,8 @@
     font-family: 'Plus Jakarta Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 15px;
+    font-size: 2rem;
+    line-height: 1.5rem;
 
     margin-bottom: 1rem;
 }
@@ -33,17 +31,13 @@
     font-family: 'Jost';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 16px;
-
-    width: 296px;
-    height: 103px;
-
-    margin-bottom: 4rem;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
 }
 .inf_social{
     display: flex;
     gap: 0.9rem;
+    margin-top: 3rem;
 }
 .inf_social img{
     cursor: pointer;

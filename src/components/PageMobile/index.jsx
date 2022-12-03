@@ -1,5 +1,6 @@
 import HeaderMobile from './HeaderMobile';
 import MyNameMobile from './MyNameMobile';
+import Services from './Services';
 import './styles.css';
 
 
@@ -8,7 +9,8 @@ function PageMobile () {
         <div className='container_mobile_body'>
             <HeaderMobile />
             <div className='container_body_mobile'>
-               <MyNameMobile />
+                <MyNameMobile />
+                <Services />
             </div>
         </div>
     )
