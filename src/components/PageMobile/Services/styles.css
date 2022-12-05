@@ -1,20 +1,3 @@
-.container_sercices_mobile{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    margin-top: 10.0rem;
-}
-.container_sercices_mobile h1{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 2rem;
-    line-height: 0.8rem;
-    margin-bottom: 3.9rem;
-
-    color: #C4AD8C;
-}
 .content_services_card_mobile{
     display: flex;
     align-items: center;
