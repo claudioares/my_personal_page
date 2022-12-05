@@ -1,7 +1,6 @@
 import './styles.css';
 import { 
-    imgSkills,
-    imagensProjects
+    imgSkills
 } from '../../../../ultils/skilss';
 
 
