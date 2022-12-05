@@ -1,7 +1,10 @@
 import HeaderMobile from './HeaderMobile';
 import MyNameMobile from './MyNameMobile';
 import Services from './Services';
+import Portifolio from './Portifólio';
+import Formation from './Formation';
 import './styles.css';
+import FooterMobile from './FooterMobile';
 
 
 function PageMobile () {
@@ -11,7 +14,10 @@ function PageMobile () {
             <div className='container_body_mobile'>
                 <MyNameMobile />
                 <Services />
+                <Portifolio />
+                <Formation />
             </div>
+            <FooterMobile />
         </div>
     )
 }
