@@ -15,8 +15,9 @@ function Page() {
   const [containerWeb, setContainerWeb] = useState(true)
 
   useEffect(()=>{
-    let screen = window.screen.availWidth;
-    if(screen <= 425){
+    let screenW = window.screen.availWidth;
+  
+    if(screenW <= 428 ){
       setContainerMobile(true)
       setContainerWeb(false)
     } else {

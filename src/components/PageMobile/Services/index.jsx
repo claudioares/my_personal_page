@@ -5,8 +5,8 @@ import back_icon from '../../../assets/imagens/services/back_icon.svg';
 
 function Services () {
     return(
-        <div className='container_sercices_mobile'>
-            <h1>services</h1>
+        <div className='container_mobile margin_top'>
+            <h1 className='h1_mobile'>SERVIÇOS</h1>
             <div className='content_services_card_mobile'>
                 <div>
                     <img src={arrow_left} alt="seta para esquerda" className='arrows'/>
