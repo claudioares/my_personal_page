@@ -11,13 +11,14 @@ function Footer () {
                 <div className='left'>
                     <strong>Contate-me:</strong>
                     <span>
-                        <p>email:</p>
+                        <p>Email:</p>
                         <p>claudiojasoares.dev@gmail.com</p>
                     </span>
 
                     <span>
-                        <p>telefone:</p>
-                        <p>&#40;98&#41; 99158-6420</p>
+                        <p>Telefone:</p>
+                        <a href='http://wa.me/5598991586420' target="_blank"><p style={{color:'white'}}>&#40;98&#41; 99158-6420</p></a>
+                        
                     </span>
 
                     <span>

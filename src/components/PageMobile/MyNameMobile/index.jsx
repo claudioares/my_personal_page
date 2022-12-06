@@ -2,6 +2,7 @@ import './styles.css';
 import insta from '../../../assets/imagens/my_name/insta.svg';
 import gith from '../../../assets/imagens/my_name/gith.svg';
 import linked from '../../../assets/imagens/my_name/linked.svg';
+import whats from '../../../assets/imagens/mobile/whats_icon.svg';
 
 
 function MyNameMobile () {
@@ -23,6 +24,7 @@ function MyNameMobile () {
                 <a href='https://www.instagram.com/ayresdinhu.dev/' target="_blank"><img src={insta} alt='Icone de rede social' /></a>
                 <a href='https://github.com/claudioares' target="_blank"><img src={gith} alt='Icone de rede social' /></a>
                 <a href='https://www.linkedin.com/in/cl%C3%A1udio-soares-4b9b14216/' target="_blank"><img src={linked} alt='Icone de rede social' /></a>
+                <a href='http://wa.me/5598991586420' target="_blank"><img src={whats} alt='Icone de rede social' /></a>
             </div>
         </div>
     )
