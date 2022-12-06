@@ -15,7 +15,7 @@ function MyName () {
                     <h2>Soares</h2>
                 </div>
                 <p className='user_presentación'>
-                    Sou desenvolvedor front-end a quase dois anos, me dedico quase 10 
+                    Sou desenvolvedor FullStack e me dedico de 8 a 10 
                     horas por dia aos estudos e a criação de projetos. Essa dedicação me 
                     da a pura certeza que meu projeto de vida é aprender sempre novas 
                     maneiras de solunionar problemas atavés da tecnólogia; e que vale 
