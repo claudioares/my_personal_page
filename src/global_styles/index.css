@@ -47,7 +47,7 @@ a{
     display: none;
   }
   .user_presentación{
-    text-align: center;
+    text-align: start;
     min-width: 500px;
   }
   .section_body_page{
