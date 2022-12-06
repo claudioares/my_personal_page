@@ -15,12 +15,9 @@ function MyName () {
                     <h2>Soares</h2>
                 </div>
                 <p className='user_presentación'>
-                    Sou desenvolvedor FullStack e me dedico de 8 a 10 
-                    horas por dia aos estudos e a criação de projetos. Essa dedicação me 
-                    da a pura certeza que meu projeto de vida é aprender sempre novas 
-                    maneiras de solunionar problemas atavés da tecnólogia; e que vale 
-                    muito as horas e me faz ter a certeza que isto é o que eu quero 
-                    fazer pro resto da vida
+                    Eu sempre me imaginei trabalhando com algo que pudesse aliar coisas boas na vida das pessoas e aqui como dev tenho certeza que posso me desenvolver nesse projeto de vida.
+                    Eu me dedico de 8 a 10 horas por dia aos estudos e a criação de projetos e sempre estou disposto a aprender.
+                    Sou desenvolvedor Full Stack e quero achar novas formas de construir soluções, positivas, através da tecnologia.
                 </p>
                 <div className='content_imagens_section'>
                     <a href='https://www.instagram.com/ayresdinhu.dev/' target="_blank"><img src={icon_insta} alt='Logo da rede social instagram' /></a>
