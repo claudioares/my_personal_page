@@ -30,7 +30,7 @@ function FooterMobile (){
                     </div>
                     <div className='phone flex'>
                         <span>Telefone:</span>
-                        <p>(98) 99158-6420</p>
+                        <a href='http://wa.me/5598991586420' target="_blank"><p>&#40;98&#41; 99158-6420</p></a>
                     </div>
                 </div>
             </div>
