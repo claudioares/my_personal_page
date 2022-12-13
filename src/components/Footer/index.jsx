@@ -30,7 +30,7 @@ function Footer () {
                     <span>Social:</span>
                     <div className='social_span'>
                         <a href='https://www.instagram.com/ayresdinhu.dev/' target="_blank"><img src={insta} alt="icones de redes sociais" /></a>
-                        <a href='https://www.linkedin.com/in/cl%C3%A1udio-soares-4b9b14216/' target="_blank"><img src={linkd} alt="icones de redes sociais" /></a>
+                        <a href='https://www.linkedin.com/in/cl%C3%A1udio-soares-dev/' target="_blank"><img src={linkd} alt="icones de redes sociais" /></a>
                         <a href='https://github.com/claudioares' target="_blank"><img src={github} alt="icones de redes sociais" /></a>
                     </div>
                 </div>
