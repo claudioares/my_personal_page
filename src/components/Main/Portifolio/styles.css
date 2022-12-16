@@ -28,3 +28,14 @@
 .portifolio{
     margin-bottom: 1rem;
 }
+.list_portfilio{
+    text-align: center;
+    
+    width: 100%;
+    margin-top: 3rem;
+
+    color: #C4AD8C;
+}
+.list_portfilio:hover{
+    color: aliceblue;
+}
