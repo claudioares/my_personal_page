@@ -9,7 +9,7 @@ import BodyPage from '../components/BodyPage';
 
 
 function Home() {
-  const [ nameUser, setNameUser ]=useState('');
+  const [ nameUser, setNameUser ]=useState('claudioares');
   const [ avatarUser, setAvatarUser ] = useState ('');
   
   const [ repos, setRepos ] = useState([]);
