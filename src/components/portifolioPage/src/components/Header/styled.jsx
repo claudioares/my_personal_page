@@ -21,7 +21,7 @@ export const Return = styled.span`
     align-items: center;
     justify-content: center;
 
-    height: 30px;
+    height: 3rem;
     width: 100%;
     gap: 0.5rem;
 
@@ -41,8 +41,8 @@ export const Img = styled.div`
     align-items: center;
  
     img{
-        width: 32.9px;
-        height: 32.9px;
+        width: 3.2rem;
+        height: 3.2rem;
         border-radius: 50%;
     }
 `

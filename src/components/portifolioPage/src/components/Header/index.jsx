@@ -1,6 +1,7 @@
 import { LinkStyled } from '../../global_styled/LinkStyled';
 import icon_g_h from '../../assets/icon_gh.svg';
 import icon_or_search from '../../assets/icon_or_search.svg';
+import user_github from '../../assets/user_github.svg';
 import {
     Header, Img, InfoUser, InputHeader, IconSearch, Return
 } from './styled';
@@ -32,22 +33,33 @@ function HeaderPage ({
                     </Img>
                     <input 
                         type="text" 
-                        placeholder='Digite o nome de usuário...'
+                        placeholder='Pesquise nome de usuário...'
                         value={nameUser}
                         onChange={(e)=>setNameUser(e.target.value)}
+                        autoFocus='true'
                     />
                     <IconSearch>
                         <img src={icon_or_search} alt='icon icon_or_search' />
                     </IconSearch>
                 </InputHeader>
                 <LinkStyled href={linkUser} target='_blank'>
-                    {linkUser && 
+                    {linkUser ?
                         <>
                             <h3>{name}</h3>
                             <Img>
                                 <img 
                                     src={avatarUser} 
                                     alt='imagem do usuario' 
+                                />
+                            </Img>
+                        </>
+                        :
+                        <>
+                            <h3>UserName</h3>
+                            <Img>
+                                <img 
+                                    src={user_github} 
+                                    alt='Mascote do github' 
                                 />
                             </Img>
                         </>

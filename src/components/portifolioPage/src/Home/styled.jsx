@@ -30,3 +30,37 @@ export const InputHome = styled.input`
 export const DivError = styled.div`
     position: absolute;
 `
+export const DivInformation = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    height: calc(100vh - 6rem);
+
+    color: #f0f3f692;
+    
+`
+export const DivImageHome = styled.div`
+    display: flex;
+    gap: 1rem;
+    img{
+        height: 8.5rem;
+        width: 8.5rem;
+    }
+`
+export const DivInfo = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #C4AD8C;
+
+    gap: 0.5rem;
+    margin-top: 4rem;
+
+    .user_search{
+        color: #f0f3f692;
+    }
+`

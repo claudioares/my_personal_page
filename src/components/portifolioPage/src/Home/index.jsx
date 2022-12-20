@@ -3,9 +3,14 @@ import api from "axios";
 import Header from "../components/Header/index";
 import { 
   HomePage,
-  InputHome
+  InputHome,
+  DivInformation,
+  DivImageHome,
+  DivInfo
 } from './styled';
 import BodyPage from '../components/BodyPage';
+import use_github from '../assets/user_github.svg';
+import sucess from '../assets/sucess.svg';
 
 
 function Home() {
@@ -56,18 +61,35 @@ function Home() {
         linkUser={linkUser}
         name={name}
       />
-      {linkUser && <InputHome 
-        type='text'
-        className='input'
-        placeholder='Digite...'
-        onChange={(e)=>setInputValue(e.target.value)}
-        value={inputValue}
-      />}
-      {linkUser && <BodyPage
-        repos={repos}
-        repoFilter={repoFilter}
-        inputValue={inputValue}
-      />}
+
+      {linkUser ?
+        <>
+          <InputHome 
+            type='text'
+            className='input'
+            placeholder='Digite o nome do repositório...'
+            onChange={(e)=>setInputValue(e.target.value)}
+            value={inputValue}
+          />
+          <BodyPage
+            repos={repos}
+            repoFilter={repoFilter}
+            inputValue={inputValue}
+          />
+          <DivInfo>
+            <p>Voce também pode digitar o nome de outros usuários na barra de:</p>
+            <p className='user_search'>Pesquise nome de usuário...</p>
+          </DivInfo>
+        </>
+        :
+        <DivInformation>
+          <DivImageHome>
+            <img src={use_github} alt='Mascote do github' />
+            <img src={sucess} alt='Simbolo de processo bem sucedido' />
+          </DivImageHome>
+          <h2>Precione ENTER para acessar o repositório!</h2>
+        </DivInformation>
+      }
     </HomePage>
   )
 }

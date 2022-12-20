@@ -20,7 +20,7 @@ function BodyPage ({repos, repoFilter, inputValue}) {
                     {repos.map(repo => (
                     <LinkStyled href={repo.clone_url} target='_blank' key={repo.id}>
                         <li>
-                        {repo.name}
+                            {repo.name}
                         </li>
                     </LinkStyled>
                     ))}
