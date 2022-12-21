@@ -20,6 +20,7 @@ function Portifolio () {
     } = useContext(ContextApi)
 
     const [description, setDescription] = useState('');
+    const [linkStacks, setLinkStacks] = useState('');
   
 
     function handleSelectStack(e){
@@ -35,6 +36,7 @@ function Portifolio () {
                 }
                 if(obj.tec === 'python'){
                     setDescription(obj.description)
+                    setLinkStacks(obj.link)
                 }
                 setSelectDivStack({
                     python: true,
@@ -50,6 +52,7 @@ function Portifolio () {
                 }
                 if(obj.tec === 'c'){
                     setDescription(obj.description)
+                    setLinkStacks(obj.link)
                 }
                 setSelectDivStack({
                     python: false,
@@ -66,6 +69,7 @@ function Portifolio () {
                 }
                 if(obj.tec === 'nodejs'){
                     setDescription(obj.description)
+                    setLinkStacks(obj.link)
                 }
                 setSelectDivStack({
                     c: false,
@@ -82,6 +86,7 @@ function Portifolio () {
                 }
                 if(obj.tec === 'react'){
                     setDescription(obj.description)
+                    setLinkStacks(obj.link)
                 }
                 setSelectDivStack({
                     node: false,
@@ -98,6 +103,7 @@ function Portifolio () {
                 }
                 if(obj.tec === 'typescript'){
                     setDescription(obj.description)
+                    setLinkStacks(obj.link)
                 }
                 setSelectDivStack({
                     react: false,
@@ -114,6 +120,7 @@ function Portifolio () {
                 }
                 if(obj.tec === 'javascript'){
                     setDescription(obj.description)
+                    setLinkStacks(obj.link)
                 }
                 setSelectDivStack({
                     typescript: false,
@@ -130,6 +137,7 @@ function Portifolio () {
                 }
                 if(obj.tec === 'tailwindcss'){
                     setDescription(obj.description)
+                    setLinkStacks(obj.link)
                 }
                 setSelectDivStack({
                     javascript: false,
@@ -146,6 +154,7 @@ function Portifolio () {
                 }
                 if(obj.tec === 'sass'){
                     setDescription(obj.description)
+                    setLinkStacks(obj.link)
                 }
                 setSelectDivStack({
                     tailwindcss: false,
@@ -162,6 +171,7 @@ function Portifolio () {
                 }
                 if(obj.tec === 'css3'){
                     setDescription(obj.description)
+                    setLinkStacks(obj.link)
                 }
                 setSelectDivStack({
                     sass: false,
@@ -177,6 +187,7 @@ function Portifolio () {
                 }
                 if(obj.tec === 'html5'){
                     setDescription(obj.description)
+                    setLinkStacks(obj.link)
                 }
                 setSelectDivStack({
                     css3: false,
@@ -213,6 +224,7 @@ function Portifolio () {
                         <DivHtml>
                             <TextBalloon
                                 description={description}
+                                linkStacks={linkStacks}
                             />
                         </DivHtml>}
 
@@ -220,6 +232,7 @@ function Portifolio () {
                         <DivCss>
                             <TextBalloon
                                 description={description}
+                                linkStacks={linkStacks}
                             />
                         </DivCss>}
 
@@ -227,6 +240,7 @@ function Portifolio () {
                         <DivSass>
                             <TextBalloon
                                 description={description}
+                                linkStacks={linkStacks}
                             />
                         </DivSass>}
                         
@@ -234,6 +248,7 @@ function Portifolio () {
                         <DivTailwindcss>
                             <TextBalloon
                                 description={description}
+                                linkStacks={linkStacks}
                             />
                         </DivTailwindcss>}
 
@@ -241,6 +256,7 @@ function Portifolio () {
                         <DivJavaScript>
                             <TextBalloon
                                 description={description}
+                                linkStacks={linkStacks}
                             />
                         </DivJavaScript>}
 
@@ -248,6 +264,7 @@ function Portifolio () {
                         <DivTypeScript>
                             <TextBalloon
                                 description={description}
+                                linkStacks={linkStacks}
                             />
                         </DivTypeScript>}
                     
@@ -255,6 +272,7 @@ function Portifolio () {
                         <DivReact>
                             <TextBalloon
                                 description={description}
+                                linkStacks={linkStacks}
                             />
                         </DivReact>}
 
@@ -262,6 +280,7 @@ function Portifolio () {
                         <DivNode>
                             <TextBalloon
                                 description={description}
+                                linkStacks={linkStacks}
                             />
                         </DivNode>}
 
@@ -269,12 +288,14 @@ function Portifolio () {
                         <DivC>
                             <TextBalloon
                                 description={description}
+                                linkStacks={linkStacks}
                             />
                         </DivC>}
                     {selectDivStack.python && 
                         <DivPython>
                             <TextBalloon
                                 description={description}
+                                linkStacks={linkStacks}
                             />
                         </DivPython>}
 
