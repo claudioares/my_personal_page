@@ -26,13 +26,10 @@ function Page() {
     }
   },[])
 
-  
   return (
     <>
-      <div className='curriculum_modal'>
-      </div>
       { containerWeb &&
-        <div className="container_page" id='header'>
+        <div className="container_page" id='header' onClick={()=>hendleClickWin()}>
         <Header />
 
         <div className='body_page'>

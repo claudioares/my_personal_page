@@ -26,38 +26,43 @@ export const infoSkills = [
         id: '01',
         skill : "icon da tecnologia html5",
         icon : icon_html,
-        tec : "html5"
+        tec : "html5",
+        description: "Conheci como parte dos estudos em desenvolvimento web em 2021, mas aprimorei no intensivo fullstack."
     },
     {
         id: '02',
         skill : "icon da tecnologia css3",
         icon : icon_css,
-        tec : "css3"
-
+        tec : "css3",
+        description: "Conheci nos bootcamps que fiz em 2021 mas aprimorei no intensivo de 8 meses de desenvolvimento fullstack."
     },
     {
         id: '03',
         skill : "icon da tecnologia sass",
         icon : icon_sass,
-        tec : "sass"
+        tec : "sass",
+        description: "Mais uma tecnologia de estilização que estou conhecendo. Estou desenvolvendo alguns projetos com ela."
     },
     {
         id: '04',
         skill : "icon da tecnologia tailwind",
         icon : icon_tailwind,
-        tec : "tailwind css"
+        tec : "tailwindcss",
+        description: "Uma tecnologia de estilização que descobrir a pouco tempo. Já desenvolvi projetos com ela e estou aprimorando."
     },
     {
         id: '05',
         skill : "icon da tecnologia java script",
         icon : icon_js,
-        tec : "javascript"
+        tec : "javascript",
+        description: "Esta linguagem eu escolhi depois da fase de experimentar várias linguagens. JavaScript é a linguagem que mais desenvolvi projetos até hoje."
     },
     {
         id: '06',
         skill : "icon da tecnologia type script",
         icon : icon_ts,
-        tec : "typescript"
+        tec : "typescript",
+        description: "Atualmente é a linguagem que estou tendo um mais atenção. Pode-se dizer que é até um caminho natural pra quem estuda javascript"
     },
     {
         id: '07',

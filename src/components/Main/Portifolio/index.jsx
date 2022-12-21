@@ -9,7 +9,13 @@ import {
     DivPython,
     DivC,
     DivNode,
-    DivReact
+    DivReact,
+    DivTypeScript,
+    DivJavaScript,
+    DivTailwindcss,
+    DivSass,
+    DivCss,
+    DivHtml
 } from './styledDivs';
 
 
@@ -20,7 +26,13 @@ function Portifolio () {
         python: false,
         c: false,
         node: false,
-        react: false
+        react: false,
+        typescript: false,
+        javascript: false,
+        tailwindcss: false,
+        sass: false,
+        css3: false,
+        html5: false
     })
 
     function handleSelectStack(e){
@@ -33,9 +45,6 @@ function Portifolio () {
                 }
                 setSelectDivStack({
                     python: true,
-                    c: false,
-                    node: false,
-                    react: false
                 })
             }
 
@@ -46,8 +55,6 @@ function Portifolio () {
                 setSelectDivStack({
                     python: false,
                     c: true,
-                    node: false,
-                    react: false
                 })
             }
 
@@ -56,10 +63,8 @@ function Portifolio () {
                     setDescription(obj.description)
                 }
                 setSelectDivStack({
-                    python: false,
                     c: false,
                     node: true,
-                    react: false
                 })
             }
 
@@ -68,10 +73,67 @@ function Portifolio () {
                     setDescription(obj.description)
                 }
                 setSelectDivStack({
-                    python: false,
-                    c: false,
                     node: false,
                     react: true
+                })
+            }
+
+            if(tecId === 'typescript'){
+                if(obj.tec === 'typescript'){
+                    setDescription(obj.description)
+                }
+                setSelectDivStack({
+                    react: false,
+                    typescript: true
+                })
+            }
+
+            if(tecId === 'javascript'){
+                if(obj.tec === 'javascript'){
+                    setDescription(obj.description)
+                }
+                setSelectDivStack({
+                    typescript: false,
+                    javascript: true
+                })
+            }
+
+            if(tecId === 'tailwindcss'){
+                if(obj.tec === 'tailwindcss'){
+                    setDescription(obj.description)
+                }
+                setSelectDivStack({
+                    javascript: false,
+                    tailwindcss: true
+                })
+            }
+
+            if(tecId === 'sass'){
+                if(obj.tec === 'sass'){
+                    setDescription(obj.description)
+                }
+                setSelectDivStack({
+                    tailwindcss: false,
+                    sass: true
+                })
+            }
+
+            if(tecId === 'css3'){
+                if(obj.tec === 'css3'){
+                    setDescription(obj.description)
+                }
+                setSelectDivStack({
+                    sass: false,
+                    css3: true
+                })
+            }
+            if(tecId === 'html5'){
+                if(obj.tec === 'html5'){
+                    setDescription(obj.description)
+                }
+                setSelectDivStack({
+                    css3: false,
+                    html5: true
                 })
             }
 
@@ -80,12 +142,19 @@ function Portifolio () {
                     python: false,
                     c: false,
                     node: false,
-                    react: false
+                    react: false,
+                    typescript: false,
+                    javascript: false,
+                    tailwindcss: false,
+                    sass: false,
+                    css3: false,
+                    html5: false
                 })
-            }, 6000)
+            }, 5000)
         })
     }
 
+   
     return(
         <section className='container_global' id='portifolio'>
             <div className='content_services_global'>
@@ -93,28 +162,74 @@ function Portifolio () {
                     PORTIFÓLIO
                 </h1>
                 <div className="container_divs_stacks">
-                    {selectDivStack.react && <DivReact>
-                        <TextBalloon
-                            description={description}
-                        />
-                    </DivReact>}
+                    {selectDivStack.html5 && 
+                        <DivHtml>
+                            <TextBalloon
+                                description={description}
+                            />
+                        </DivHtml>}
 
-                    {selectDivStack.node && <DivNode>
-                        <TextBalloon
-                            description={description}
-                        />
-                    </DivNode>}
+                    {selectDivStack.css3 && 
+                        <DivCss>
+                            <TextBalloon
+                                description={description}
+                            />
+                        </DivCss>}
 
-                    {selectDivStack.c && <DivC>
-                        <TextBalloon
-                            description={description}
-                        />
-                    </DivC>}
-                    {selectDivStack.python && <DivPython>
-                        <TextBalloon
-                            description={description}
-                        />
-                    </DivPython>}
+                    {selectDivStack.sass && 
+                        <DivSass>
+                            <TextBalloon
+                                description={description}
+                            />
+                        </DivSass>}
+                        
+                    {selectDivStack.tailwindcss && 
+                        <DivTailwindcss>
+                            <TextBalloon
+                                description={description}
+                            />
+                        </DivTailwindcss>}
+
+                    {selectDivStack.javascript && 
+                        <DivJavaScript>
+                            <TextBalloon
+                                description={description}
+                            />
+                        </DivJavaScript>}
+
+                    {selectDivStack.typescript && 
+                        <DivTypeScript>
+                            <TextBalloon
+                                description={description}
+                            />
+                        </DivTypeScript>}
+                    
+                    {selectDivStack.react && 
+                        <DivReact>
+                            <TextBalloon
+                                description={description}
+                            />
+                        </DivReact>}
+
+                    {selectDivStack.node && 
+                        <DivNode>
+                            <TextBalloon
+                                description={description}
+                            />
+                        </DivNode>}
+
+                    {selectDivStack.c && 
+                        <DivC>
+                            <TextBalloon
+                                description={description}
+                            />
+                        </DivC>}
+                    {selectDivStack.python && 
+                        <DivPython>
+                            <TextBalloon
+                                description={description}
+                            />
+                        </DivPython>}
 
                 </div>
                 <div className='content_skills_icons'>
