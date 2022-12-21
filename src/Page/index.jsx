@@ -1,12 +1,10 @@
-import './styles.css'
+import { useEffect, useState, useContext } from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Main from '../components/Main'
-import Footer from '../components/Footer'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
 import PageMobile from '../components/PageMobile'
-import { useEffect, useState } from 'react'
-
-
+import './styles.css'
 
 
 function Page() {
@@ -29,7 +27,7 @@ function Page() {
   return (
     <>
       { containerWeb &&
-        <div className="container_page" id='header' onClick={()=>hendleClickWin()}>
+        <div className="container_page" id='header'>
         <Header />
 
         <div className='body_page'>

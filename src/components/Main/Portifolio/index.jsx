@@ -1,45 +1,38 @@
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import {
     infoSkills
 } from '../../../../ultils/skilss';
-import './styles.css';
 import TextBalloon from "../../TextBalloon";
-import { useState } from "react";
 import {
-    DivPython,
-    DivC,
-    DivNode,
-    DivReact,
-    DivTypeScript,
-    DivJavaScript,
-    DivTailwindcss,
-    DivSass,
-    DivCss,
-    DivHtml
+    DivC, DivCss,
+    DivHtml, DivJavaScript, DivNode, DivPython, DivReact, DivSass, DivTailwindcss, DivTypeScript
 } from './styledDivs';
+import './styles.css';
+import { ContextApi } from '../../../Contexts/ContextApi';
 
 
 
 function Portifolio () {
+    const {
+        selectDivStack,
+        setSelectDivStack
+    } = useContext(ContextApi)
+
     const [description, setDescription] = useState('');
-    const [selectDivStack, setSelectDivStack] = useState({
-        python: false,
-        c: false,
-        node: false,
-        react: false,
-        typescript: false,
-        javascript: false,
-        tailwindcss: false,
-        sass: false,
-        css3: false,
-        html5: false
-    })
+  
 
     function handleSelectStack(e){
         let tecId = e.target.id;
         infoSkills.map(obj =>{
        
             if(tecId === 'python'){
+                if(selectDivStack.python === true){
+                    setSelectDivStack({
+                        python: false
+                    })
+                    return;
+                }
                 if(obj.tec === 'python'){
                     setDescription(obj.description)
                 }
@@ -49,6 +42,12 @@ function Portifolio () {
             }
 
             if(tecId === 'c'){
+                if(selectDivStack.c === true){
+                    setSelectDivStack({
+                        c: false
+                    })
+                    return;
+                }
                 if(obj.tec === 'c'){
                     setDescription(obj.description)
                 }
@@ -59,6 +58,12 @@ function Portifolio () {
             }
 
             if(tecId === 'nodejs'){
+                if(selectDivStack.node === true){
+                    setSelectDivStack({
+                        node: false
+                    })
+                    return;
+                }
                 if(obj.tec === 'nodejs'){
                     setDescription(obj.description)
                 }
@@ -69,6 +74,12 @@ function Portifolio () {
             }
 
             if(tecId === 'react'){
+                if(selectDivStack.react === true){
+                    setSelectDivStack({
+                        react: false
+                    })
+                    return;
+                }
                 if(obj.tec === 'react'){
                     setDescription(obj.description)
                 }
@@ -79,6 +90,12 @@ function Portifolio () {
             }
 
             if(tecId === 'typescript'){
+                if(selectDivStack.typescript === true){
+                    setSelectDivStack({
+                        typescript: false
+                    })
+                    return;
+                }
                 if(obj.tec === 'typescript'){
                     setDescription(obj.description)
                 }
@@ -89,6 +106,12 @@ function Portifolio () {
             }
 
             if(tecId === 'javascript'){
+                if(selectDivStack.javascript === true){
+                    setSelectDivStack({
+                        javascript: false
+                    })
+                    return;
+                }
                 if(obj.tec === 'javascript'){
                     setDescription(obj.description)
                 }
@@ -99,6 +122,12 @@ function Portifolio () {
             }
 
             if(tecId === 'tailwindcss'){
+                if(selectDivStack.tailwindcss === true){
+                    setSelectDivStack({
+                        tailwindcss: false
+                    })
+                    return;
+                }
                 if(obj.tec === 'tailwindcss'){
                     setDescription(obj.description)
                 }
@@ -109,6 +138,12 @@ function Portifolio () {
             }
 
             if(tecId === 'sass'){
+                if(selectDivStack.sass === true){
+                    setSelectDivStack({
+                        sass: false
+                    })
+                    return;
+                }
                 if(obj.tec === 'sass'){
                     setDescription(obj.description)
                 }
@@ -119,6 +154,12 @@ function Portifolio () {
             }
 
             if(tecId === 'css3'){
+                if(selectDivStack.css3 === true){
+                    setSelectDivStack({
+                        css3: false
+                    })
+                    return;
+                }
                 if(obj.tec === 'css3'){
                     setDescription(obj.description)
                 }
@@ -128,6 +169,12 @@ function Portifolio () {
                 })
             }
             if(tecId === 'html5'){
+                if(selectDivStack.html5 === true){
+                    setSelectDivStack({
+                        html5: false
+                    })
+                    return;
+                }
                 if(obj.tec === 'html5'){
                     setDescription(obj.description)
                 }
@@ -136,23 +183,23 @@ function Portifolio () {
                     html5: true
                 })
             }
-
-            setTimeout(()=>{
-                setSelectDivStack({
-                    python: false,
-                    c: false,
-                    node: false,
-                    react: false,
-                    typescript: false,
-                    javascript: false,
-                    tailwindcss: false,
-                    sass: false,
-                    css3: false,
-                    html5: false
-                })
-            }, 5000)
         })
     }
+
+    function handleClickPage () {
+        setSelectDivStack({
+            python: false,
+            c: false,
+            node: false,
+            react: false,
+            typescript: false,
+            javascript: false,
+            tailwindcss: false,
+            sass: false,
+            css3: false,
+            html5: false
+        })
+      }
 
    
     return(
