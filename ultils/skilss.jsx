@@ -27,70 +27,80 @@ export const infoSkills = [
         skill : "icon da tecnologia html5",
         icon : icon_html,
         tec : "html5",
-        description: "Uma tecnologia de marcação de texto. Conheci em bootcamps 2021 e no intensivão fullstack."
+        description: "Uma tecnologia de marcação de texto. Conheci em bootcamps 2021 e no intensivão fullstack.",
+        link: 'https://developer.mozilla.org/pt-BR/docs/Web/HTML'
     },
     {
         id: '02',
         skill : "icon da tecnologia css3",
         icon : icon_css,
         tec : "css3",
-        description: "Foi a primeira forma de estilização que aprendi. Conheci nos bootcamps que fiz em 2021 e mais tarde no intensivão fullstack."
+        description: "Foi a primeira forma de estilização que aprendi. Conheci nos bootcamps que fiz em 2021 e mais tarde no intensivão fullstack.",
+        link: 'https://developer.mozilla.org/pt-BR/docs/Web/CSS'
     },
     {
         id: '03',
         skill : "icon da tecnologia sass",
         icon : icon_sass,
         tec : "sass",
-        description: "Mais uma tecnologia de estilização que estou conhecendo. Estou desenvolvendo alguns projetos com ela."
+        description: "Mais uma tecnologia de estilização que estou conhecendo. Estou desenvolvendo alguns projetos com ela.",
+        link: 'https://sass-lang.com/documentation/'
     },
     {
         id: '04',
         skill : "icon da tecnologia tailwind",
         icon : icon_tailwind,
         tec : "tailwindcss",
-        description: "Criado para aumentar a velocidade no desenvolvimento usando 'estilização inline'. Estou desenvolvendo alguns projetos com essa tecnologia."
+        description: "Criado para aumentar a velocidade no desenvolvimento usando 'estilização inline'. Estou desenvolvendo alguns projetos com essa tecnologia.",
+        link: 'https://tailwindui.com/?ref=top'
     },
     {
         id: '05',
         skill : "icon da tecnologia java script",
         icon : icon_js,
         tec : "javascript",
-        description: "Esta linguagem eu escolhi depois da fase de experimentar várias linguagens. JavaScript é a linguagem que mais desenvolvi projetos até hoje."
+        description: "Esta linguagem eu escolhi depois da fase de experimentar várias linguagens. JavaScript é a linguagem que mais desenvolvi projetos até hoje.",
+        link: 'https://developer.mozilla.org/pt-BR/docs/Web/JavaScript'
     },
     {
         id: '06',
         skill : "icon da tecnologia type script",
         icon : icon_ts,
         tec : "typescript",
-        description: "Atualmente é a linguagem que estou me aprimorando. Pode-se dizer que é até um caminho natural pra quem estuda javascript"
+        description: "Atualmente é a linguagem que estou me aprimorando. Pode-se dizer que é até um caminho natural pra quem estuda javascript",
+        link: 'https://www.typescriptlang.org/'
     },
     {
         id: '07',
         skill : "icon da tecnologia react",
         icon : icon_react,
         tec : "react",
-        description: 'Trabalhar com componentes abriu minha visão sobre desenvolvimento frontend. É minha tecnologia favorita!'
+        description: 'Trabalhar com componentes abriu minha visão sobre desenvolvimento frontend. É minha tecnologia favorita!',
+        link: 'https://pt-br.reactjs.org/'
     },
     {
         id: '08',
         skill : "icon da tecnologia node js",
         icon : icon_njs,
         tec : "nodejs",
-        description: 'É a tecnológia que conheci durante no INTENSIVO de 8 meses em estudo fullstack. Todos os meus projetos backend são em nodejs.'
+        description: 'É a tecnológia que conheci durante no INTENSIVO de 8 meses em estudo fullstack. Todos os meus projetos backend são em nodejs.',
+        link: 'https://nodejs.org/en/'
     },
     {
         id: '09',
         skill : "icon da tecnologia c",
         icon : icon_c,
         tec : "c",
-        description: "Conheci a tecnologia C nos dois simestres que fiz da graduação em Engenharia de Software em 2021."
+        description: "Conheci a tecnologia C nos dois simestres que fiz da graduação em Engenharia de Software em 2021.",
+        link:"https://learn.microsoft.com/pt-br/cpp/c-language/?view=msvc-170"
     },
     {
         id: '10',
         skill : "icon da tecnologia python",
         icon : icon_py,
         tec : "python",
-        description: 'Primeira linguagem que conheci durante uma série de aulas apresentadas durante os sabados por um Professor da UFMA.'
+        description: 'Primeira linguagem que conheci durante uma série de aulas apresentadas durante os sabados por um Professor da UFMA.',
+        link:'https://www.python.org/'
     }
 ]
 

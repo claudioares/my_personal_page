@@ -1,25 +1,43 @@
 .balloon{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    justify-content: center;
+    align-items: center;
     
     padding: 1.5rem;
     position: absolute;
     background: rgb(255, 255, 255);
-    border-radius: 15px;
-    width: 300px;
-    height: 100px;
+    border-radius: 1.5rem;
+    width: 40rem;
+    height: 10rem;
 }
 .balloon::after{
     position: absolute;
     content: "";
     width: 0;
     height: 0;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-top: 20px solid rgb(255, 255, 255);
+    border-left: 2rem solid transparent;
+    border-right: 2rem solid transparent;
+    border-top: 2rem solid rgb(255, 255, 255);
     top: 100%;
     left: 20%;
+}
+.div_balloon_link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+    text-decoration: underline;
+    width: 100%;
+    padding: 0.5rem 0;
+}
+.div_balloon_link a{
+    color:#052d3b;
+    font-size: 1.2rem;
+}
+.div_balloon_link a:hover{
+    transform:scale3d(1.1,1.1,1.1);
+    color:#886f4b;
 }
 .balloon span {
     color:#000000;

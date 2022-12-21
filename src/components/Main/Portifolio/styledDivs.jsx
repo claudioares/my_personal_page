@@ -3,50 +3,50 @@ import styled from "styled-components";
 export const DivPython = styled.div`
 position: absolute;
 top: -65%;
-right: -18%;
+right: -13%;
 `
 export const DivC = styled.div`
 position: absolute;
 top: -65%;
-right: 2%;
+right: 7%;
 `
 export const DivNode = styled.div`
     position: absolute;
     top: -60%;
-    right: 23%;
+    right: 28%;
 `
 export const DivReact= styled.div`
     position: absolute;
     top: -60%;
-    right: 44%;
+    right: 49%;
 `
 export const DivTypeScript = styled.div`
     position: absolute;
     top: -60%;
-    right: 65%;
+    right: 71%;
 `
 export const DivJavaScript = styled.div`
     position: absolute;
     top: -60%;
-    right: 85%;
+    right: 92%;
 `
 export const DivTailwindcss = styled.div`
     position: absolute;
     top: -60%;
-    left: -7%;
+    left: -12%;
 `
 export const DivSass = styled.div`
     position: absolute;
     top: -60%;
-    left: -28%;
+    left: -33%;
 `
 export const DivCss = styled.div`
     position: absolute;
     top: -60%;
-    left: -46%;
+    left: -51%;
 `
 export const DivHtml = styled.div`
     position: absolute;
     top: -60%;
-    left: -66%;
+    left: -72%;
 `
