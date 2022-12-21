@@ -12,11 +12,11 @@
 .div_skills_icons{
     display: flex;
 }
-#img_skill{
+.img_skill{
     margin-right: 1rem;
     cursor: pointer;
 }
-#img_skill:hover{
+.img_skill:hover{
     transition: all;
     transition-delay: 1ms;
     transform: scale3d(1.7, 1.7, 1.7);
@@ -26,6 +26,7 @@
     margin-top: 51.0rem;
 }
 .portifolio{
+    position: relative;
     margin-bottom: 1rem;
 }
 .list_portfilio{
@@ -38,4 +39,7 @@
 }
 .list_portfilio:hover{
     color: aliceblue;
+}
+.container_divs_stacks{
+    display: flex;
 }

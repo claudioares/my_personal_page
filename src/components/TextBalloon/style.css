@@ -1,0 +1,28 @@
+.balloon{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    
+    padding: 1.5rem;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 300px;
+    height: 100px;
+}
+.balloon::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid rgb(255, 255, 255);
+    top: 100%;
+    left: 20%;
+}
+.balloon span {
+    color:#000000;
+    text-justify: auto;
+    font-style: italic;
+}
