@@ -21,56 +21,76 @@ import img9 from '../src/assets/imagens/portfolio/bgs/bg09.svg';
 import img10 from '../src/assets/imagens/portfolio/bgs/bg10.svg';
 import img11 from '../src/assets/imagens/portfolio/bgs/bg11.svg';
 
-export const imgSkills = [
+export const infoSkills = [
     {
         id: '01',
         skill : "icon da tecnologia html5",
-        icon : icon_html
+        icon : icon_html,
+        tec : "html5",
+        description: "Conheci como parte dos estudos em desenvolvimento web em 2021, mas aprimorei no intensivo fullstack."
     },
     {
         id: '02',
         skill : "icon da tecnologia css3",
-        icon : icon_css
+        icon : icon_css,
+        tec : "css3",
+        description: "Conheci nos bootcamps que fiz em 2021 mas aprimorei no intensivo de 8 meses de desenvolvimento fullstack."
     },
     {
         id: '03',
         skill : "icon da tecnologia sass",
-        icon : icon_sass
+        icon : icon_sass,
+        tec : "sass",
+        description: "Mais uma tecnologia de estilização que estou conhecendo. Estou desenvolvendo alguns projetos com ela."
     },
     {
         id: '04',
         skill : "icon da tecnologia tailwind",
-        icon : icon_tailwind
+        icon : icon_tailwind,
+        tec : "tailwindcss",
+        description: "Uma tecnologia de estilização que descobrir a pouco tempo. Já desenvolvi projetos com ela e estou aprimorando."
     },
     {
         id: '05',
         skill : "icon da tecnologia java script",
-        icon : icon_js
+        icon : icon_js,
+        tec : "javascript",
+        description: "Esta linguagem eu escolhi depois da fase de experimentar várias linguagens. JavaScript é a linguagem que mais desenvolvi projetos até hoje."
     },
     {
         id: '06',
         skill : "icon da tecnologia type script",
-        icon : icon_ts
+        icon : icon_ts,
+        tec : "typescript",
+        description: "Atualmente é a linguagem que estou tendo um mais atenção. Pode-se dizer que é até um caminho natural pra quem estuda javascript"
     },
     {
         id: '07',
         skill : "icon da tecnologia react",
-        icon : icon_react
+        icon : icon_react,
+        tec : "react",
+        description: 'Essa tecnologia eu tive contato durante o intensivo de 8 meses de desenvolvimento fullstack'
     },
     {
         id: '08',
         skill : "icon da tecnologia node js",
-        icon : icon_njs
+        icon : icon_njs,
+        tec : "nodejs",
+        description: 'Node é uma tecnológia que conheci durante alguns bootcamps oferecidos por escolas de tecnologias no final de 2021.'
     },
     {
         id: '09',
         skill : "icon da tecnologia c",
-        icon : icon_c
+        icon : icon_c,
+        tec : "c",
+        description: "Conheci a tecnologia C nos dois simestres que fiz da graduação em Engenharia de Software em 2021."
     },
     {
         id: '10',
         skill : "icon da tecnologia python",
-        icon : icon_py
+        icon : icon_py,
+        tec : "python",
+        description: 'Primeira linguagem que conheci durante uma série de aulas apresentadas durante os sabados por um Professor da UFMA.'
     }
 ]
 
