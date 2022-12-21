@@ -27,14 +27,14 @@ export const infoSkills = [
         skill : "icon da tecnologia html5",
         icon : icon_html,
         tec : "html5",
-        description: "Conheci como parte dos estudos em desenvolvimento web em 2021, mas aprimorei no intensivo fullstack."
+        description: "Uma tecnologia de marcação de texto. Conheci em bootcamps 2021 e no intensivão fullstack."
     },
     {
         id: '02',
         skill : "icon da tecnologia css3",
         icon : icon_css,
         tec : "css3",
-        description: "Conheci nos bootcamps que fiz em 2021 mas aprimorei no intensivo de 8 meses de desenvolvimento fullstack."
+        description: "Foi a primeira forma de estilização que aprendi. Conheci nos bootcamps que fiz em 2021 e mais tarde no intensivão fullstack."
     },
     {
         id: '03',
@@ -48,7 +48,7 @@ export const infoSkills = [
         skill : "icon da tecnologia tailwind",
         icon : icon_tailwind,
         tec : "tailwindcss",
-        description: "Uma tecnologia de estilização que descobrir a pouco tempo. Já desenvolvi projetos com ela e estou aprimorando."
+        description: "Criado para aumentar a velocidade no desenvolvimento usando 'estilização inline'. Estou desenvolvendo alguns projetos com essa tecnologia."
     },
     {
         id: '05',
@@ -62,21 +62,21 @@ export const infoSkills = [
         skill : "icon da tecnologia type script",
         icon : icon_ts,
         tec : "typescript",
-        description: "Atualmente é a linguagem que estou tendo um mais atenção. Pode-se dizer que é até um caminho natural pra quem estuda javascript"
+        description: "Atualmente é a linguagem que estou me aprimorando. Pode-se dizer que é até um caminho natural pra quem estuda javascript"
     },
     {
         id: '07',
         skill : "icon da tecnologia react",
         icon : icon_react,
         tec : "react",
-        description: 'Essa tecnologia eu tive contato durante o intensivo de 8 meses de desenvolvimento fullstack'
+        description: 'Trabalhar com componentes abriu minha visão sobre desenvolvimento frontend. É minha tecnologia favorita!'
     },
     {
         id: '08',
         skill : "icon da tecnologia node js",
         icon : icon_njs,
         tec : "nodejs",
-        description: 'Node é uma tecnológia que conheci durante alguns bootcamps oferecidos por escolas de tecnologias no final de 2021.'
+        description: 'É a tecnológia que conheci durante no INTENSIVO de 8 meses em estudo fullstack. Todos os meus projetos backend são em nodejs.'
     },
     {
         id: '09',
