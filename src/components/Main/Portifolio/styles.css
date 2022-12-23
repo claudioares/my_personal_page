@@ -16,6 +16,7 @@
     margin-right: 1rem;
     cursor: pointer;
 }
+
 .img_skill:hover{
     transition: all;
     transition-delay: 1ms;

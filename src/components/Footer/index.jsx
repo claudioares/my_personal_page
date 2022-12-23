@@ -6,10 +6,10 @@ import github from '../../assets/imagens/footer/github_footer.svg';
 
 function Footer () {
     return(
-        <footer className='container_footer'>
+        <footer className='container_footer' id='footer'>
             <div className='content_footer'>
+                <strong>Contate-me:</strong>
                 <div className='left'>
-                    <strong>Contate-me:</strong>
                     <span>
                         <p>Email:</p>
                         <p>claudiojasoares.dev@gmail.com</p>

@@ -2,10 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    min-height: auto;
     
     margin: 18.2rem 0;
+
+    height: 100vh;
 
     color: white;
 }
