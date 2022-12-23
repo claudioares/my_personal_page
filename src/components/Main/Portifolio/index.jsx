@@ -214,7 +214,7 @@ function Portifolio () {
 
    
     return(
-        <section className='container_global' id='portifolio'>
+        <section  id='portifolio'>
             <div className='content_services_global'>
                 <h1 className='presents_sections_global portifolio'>
                     PORTIFÓLIO
@@ -315,7 +315,6 @@ function Portifolio () {
                     </div>
                 </div>
                 <Link to="/portfolio" className='portifolio list_portfilio'>Pesquise portifólio &#187;	&#187;</Link>
-                <span>MyUsername: claudioares </span>
             </div>
         </section>
     )
