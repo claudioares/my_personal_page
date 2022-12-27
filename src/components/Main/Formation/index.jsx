@@ -1,22 +1,22 @@
-import './styles.css';
 import image_01 from '../../../assets/imagens/formation/image_01.svg';
-
+import {ContainerGlobal, ContentServiceGlobal} from '../../../global_styled/styledGLobal';
+import {ContentFormation, FormationDescription, ContenteDiscription} from './styled';
 function Formation () {
     return(
-        <div className='container_global' id='formation'>
-             <div className='content_services_global'>
-                <h1 className='presents_sections_global'>
+        <ContainerGlobal id='formation'>
+             <ContentServiceGlobal>
+                <h1>
                     FORMAÇÃO
                 </h1>
-                <div className='content_formation'>
+                <ContentFormation>
                     <img 
                         src={image_01}
                         loading="lazy"
                         alt="imagem de dois prototipo humanos 
                         estudando em um notbook" 
                     />
-                    <div className='formation_description'>
-                        <div className='contente_discription'>
+                    <FormationDescription>
+                        <ContenteDiscription>
                             <strong>
                                 CUBOS ACADEMY
                             </strong>
@@ -25,9 +25,9 @@ function Formation () {
                                 TypeScript | html | css | React | NodeJs | Scrum | Inteligencia emocional | 
                                 Trabalho de equipe | Projetos do básico ao avançado.
                             </p>
-                        </div>
+                        </ContenteDiscription>
 
-                        <div className='contente_discription'>
+                        <ContenteDiscription>
                             <strong>
                                 UNICESUMAR
                             </strong>
@@ -36,11 +36,11 @@ function Formation () {
                                 C | Pensamento computacional | Lógica de programação | História da computação | 
                                 Noções de negociação | Noções de desenvolvimento de Hardware
                             </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                        </ContenteDiscription>
+                    </FormationDescription>
+                </ContentFormation>
+            </ContentServiceGlobal>
+        </ContainerGlobal>
     )
 }
 

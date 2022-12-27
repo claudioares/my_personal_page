@@ -1,40 +1,40 @@
-import './styles.css';
 import ui_ux_icon from '../../../assets/imagens/services/ui_ux_icon.svg'
 import back_icon from '../../../assets/imagens/services/back_icon.svg'
 import front_icon from '../../../assets/imagens/services/front_icon.svg'
-
+import {ContainerGlobal, ContentServiceGlobal} from '../../../global_styled/styledGLobal';
+import {ContentDiscription, Card} from './styled';
 function Services () {
     return(
-        <section className='container_global'>
-            <div className='content_services_global'>
-                <h1 id='services' className='presents_sections_global'>
+        <ContainerGlobal>
+            <ContentServiceGlobal>
+                <h1 id='services'>
                     SERVIÇOS
                 </h1>
-                <div className='content_discription'>
-                    <div className='card' id='card'>
+                <ContentDiscription>
+                    <Card>
                         <img src={ui_ux_icon} alt='icon ui/ux' />
                         <p>
                             Transforme em realidade o que você tem em mente de um 
                             produto digital. Para qualquer plataforma que você considere.
                         </p>
-                    </div>
-                    <div className='card' id='card'>
+                    </Card>
+                    <Card>
                         <img src={back_icon} alt='icon backend' />
                         <p>
                             padrão, construção e implementação de seus aplicativos 
                             com documentação.
                         </p>
-                    </div>
-                    <div className='card' id='card'>
+                    </Card>
+                    <Card>
                         <img src={front_icon} alt='icon frontend' />
                         <p>
                             Crie e mantenha seus sites e também cuide de seu 
                             desempenho e capacidade de tráfego.
                         </p>
-                    </div>
-                </div>
-            </div>
-        </section>
+                    </Card>
+                </ContentDiscription>
+            </ContentServiceGlobal>
+        </ContainerGlobal>
     )
 }
 

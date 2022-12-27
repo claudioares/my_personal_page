@@ -1,26 +1,32 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { Link } from "react-router-dom";
 import {
     infoSkills
 } from '../../../../ultils/skilss';
+import { ContextApi } from '../../../Contexts/ContextApi';
+import { ContentServiceGlobal } from '../../../global_styled/styledGLobal';
 import TextBalloon from "../../TextBalloon";
 import {
     DivC, DivCss,
-    DivHtml, DivJavaScript, DivNode, DivPython, DivReact, DivSass, DivTailwindcss, DivTypeScript
-} from './styledDivs';
-import './styles.css';
-import { ContextApi } from '../../../Contexts/ContextApi';
+    DivHtml, DivJavaScript, 
+    DivNode, DivPython, 
+    DivReact, DivSass, 
+    DivTailwindcss, DivTypeScript,
+    ContentSkillsIcons, Divskillsicons, 
+    ContainerDivsStacks, ContainerPortifolio,
+    Img
+} from './styled';
+
 
 
 
 function Portifolio () {
     const {
-        selectDivStack,
-        setSelectDivStack
+        selectDivStack, setSelectDivStack,
+        description, setDescription,
+        linkStacks, setLinkStacks
     } = useContext(ContextApi)
 
-    const [description, setDescription] = useState('');
-    const [linkStacks, setLinkStacks] = useState('');
   
 
     function handleSelectStack(e){
@@ -197,29 +203,14 @@ function Portifolio () {
         })
     }
 
-    function handleClickPage () {
-        setSelectDivStack({
-            python: false,
-            c: false,
-            node: false,
-            react: false,
-            typescript: false,
-            javascript: false,
-            tailwindcss: false,
-            sass: false,
-            css3: false,
-            html5: false
-        })
-      }
-
    
     return(
-        <section  id='portifolio'>
-            <div className='content_services_global'>
-                <h1 className='presents_sections_global portifolio'>
+        <ContainerPortifolio id="portifolio">
+            <ContentServiceGlobal>
+                <h1>
                     PORTIFÓLIO
                 </h1>
-                <div className="container_divs_stacks">
+                <ContainerDivsStacks>
                     {selectDivStack.html5 && 
                         <DivHtml>
                             <TextBalloon
@@ -299,24 +290,23 @@ function Portifolio () {
                             />
                         </DivPython>}
 
-                </div>
-                <div className='content_skills_icons'>
-                    <div className='div_skills_icons'>
+                </ContainerDivsStacks>
+                <ContentSkillsIcons>
+                    <Divskillsicons>
                         {infoSkills.map(obj => (
-                            <img 
+                            <Img 
                                 src={obj.icon} 
                                 alt={obj.skill} 
-                                className='img_skill'
                                 id={obj.tec}
                                 key={obj.id}
                                 onClick={(e)=>handleSelectStack(e)}
                             />
                         ))}
-                    </div>
-                </div>
-                <Link to="/portfolio" className='portifolio list_portfilio'>Pesquise portifólio &#187;	&#187;</Link>
-            </div>
-        </section>
+                    </Divskillsicons>
+                </ContentSkillsIcons>
+                <Link to="/portfolio" className="list_portfilio">Pesquise portifólio &#187;&#187;</Link>
+            </ContentServiceGlobal>
+        </ContainerPortifolio>
     )
 }
 

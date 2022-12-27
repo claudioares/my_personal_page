@@ -1,15 +1,11 @@
-import './styles.css';
-import insta from '../../assets/imagens/footer/insta_footer.svg';
-import linkd from '../../assets/imagens/footer/linkd_footer.svg';
-import github from '../../assets/imagens/footer/github_footer.svg';
+import {ContainerFooter, ContentFooter, Left} from './styled';
 
 
 function Footer () {
     return(
-        <footer className='container_footer' id='footer'>
-            <div className='content_footer'>
-                <strong>Contate-me:</strong>
-                <div className='left'>
+        <ContainerFooter id='footer'>
+            <ContentFooter>
+                <Left>
                     <span>
                         <p>Email:</p>
                         <p>claudiojasoares.dev@gmail.com</p>
@@ -17,26 +13,16 @@ function Footer () {
 
                     <span>
                         <p>Telefone:</p>
-                        <a href='http://wa.me/5598991586420' target="_blank"><p style={{color:'white'}}>&#40;98&#41; 99158-6420</p></a>
-                        
+                        <a href='http://wa.me/5598991586420' target="_blank">&#40;98&#41; 99158-6420</a>               
                     </span>
 
                     <span>
                         <p>Localização:</p>
                         <p>Pinheiro-MA</p>
                     </span>
-                </div>
-                <div className='rigth'>
-                    <span>Social:</span>
-                    <div className='social_span'>
-                        <a href='https://www.instagram.com/ayresdinhu.dev/' target="_blank"><img src={insta} alt="icones de redes sociais" /></a>
-                        <a href='https://www.linkedin.com/in/cl%C3%A1udio-soares-dev/' target="_blank"><img src={linkd} alt="icones de redes sociais" /></a>
-                        <a href='https://github.com/claudioares' target="_blank"><img src={github} alt="icones de redes sociais" /></a>
-                    </div>
-                </div>
-
-            </div>
-        </footer>
+                </Left>
+            </ContentFooter>
+        </ContainerFooter>
     )
 }
 
