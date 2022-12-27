@@ -5,7 +5,6 @@ import styled from "styled-components";
 
 function Main () {
 
-
     const DivSection = styled.div`
       max-height: 100%;
       background-color: #0a0909;

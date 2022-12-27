@@ -12,7 +12,7 @@ export const ContainerHeader = styled.div`
         right: 0;
         left: 0;
 
-        z-index: 2;
+        z-index: 3;
 
         background-color: #0a0909;
 `

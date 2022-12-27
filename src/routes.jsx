@@ -1,12 +1,14 @@
 import { Route, Routes} from 'react-router-dom';
-import Page from './Page';
-import Home from './components/portifolioPage/src/Home/index';
+import Page from './Pages/webPage';
+import Portifolio from './Pages/portifolioPage/index';
+import PageMobile from './Pages/PageMobile/index';
 
 const MainHouter = () =>{
      return(
         <Routes>
             <Route  path='/' element={<Page />} />
-            <Route path='/portfolio' element={<Home />} />
+            <Route path='/portfolio' element={<Portifolio />} />
+            <Route path='/mobile' element={<PageMobile />} />
         </Routes>
      )
 }

@@ -16,9 +16,15 @@ function ContextProvider ({children}) {
         css3: false,
         html5: false
     })
+    const [description, setDescription] = useState('');
+    const [linkStacks, setLinkStacks] = useState('');
 
     return (
-        <ContextApi.Provider value={{selectDivStack, setSelectDivStack}}>
+        <ContextApi.Provider value={{
+            selectDivStack, setSelectDivStack,
+            description, setDescription,
+            linkStacks, setLinkStacks
+        }}>
             {children}
         </ContextApi.Provider>
     )
